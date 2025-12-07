@@ -15,11 +15,11 @@ BuildRequires: droid-hal-%{device}-kernel
 BuildRequires: droid-hal-%{device}-tools
 BuildRequires: droid-hal-%{device}-vendor_boot
 
-BuildRequires: droid-config-%{rpm_device}
-BuildRequires: droid-config-%{rpm_device}-bluez5
-BuildRequires: droid-config-%{rpm_device}-flashing
-BuildRequires: droid-config-%{rpm_device}-preinit-plugin
-BuildRequires: droid-config-%{rpm_device}-pulseaudio-settings
-BuildRequires: droid-config-%{rpm_device}-sailfish
+BuildRequires: droid-config-%{device}
+BuildRequires: droid-config-%{device}-bluez5
+BuildRequires: droid-config-%{device}-flashing
+BuildRequires: droid-config-%{device}-preinit-plugin
+BuildRequires: droid-config-%{device}-pulseaudio-settings
+BuildRequires: droid-config-%{device}-sailfish
 
 %include droid-hal-version/droid-hal-version.inc
