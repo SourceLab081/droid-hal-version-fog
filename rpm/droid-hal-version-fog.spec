@@ -1,3 +1,5 @@
+%define device fog
+%define vendor xiaomi
 # rpm_device is the name of the ported device
 %define rpm_device fog
 # rpm_vendor is used in the rpm space
